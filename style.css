@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.886);
+    display: flex;
+}
+
+.profaile{
+    
+}
+
+
+
+.menu{
+    background-color: #123;
+
+    width: 60px;
+    height: 100vh;
+    padding:5px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    background-attachment: ;
+
+
+
+}
+
+.menu:hover{
+    width: 260px;
+}
+
+
+ul{
+    list-style: none;
+    height: 95%;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.5s;
+
+
+}
+
+ul li a:hover,.actev,.data-info .box:hover{
+    /* background-color: #ffffff55 */
+    background-image: linear-gradient(to right, #ffffff55 40%,#ffffff33,#ffffff11);
+    font-size: 20px;
+}
+
+.log{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+  
+
+}
+
+.log a{
+    background-color: #a00;
+}
+
+ul li a i{
+    font-size: 27px;
+}
+
+
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 3px #fff;
+    flex-shrink: 0;
+
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.profaile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profaile h2{
+    font-size: 16px;
+    font-weight: 800;
+
+}
+
+.content{
+
+    width: 100%;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 98, 255);
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+}
+
+
+
+.data-info{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.data-info .box{
+    background-color: #123;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.data-info .box i{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.data-info .box .data span{
+    font-size: 30px;
+}
